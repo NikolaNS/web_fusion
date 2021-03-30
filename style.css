@@ -57,17 +57,9 @@ nav {
     align-items: center;
     width: 100%;
     position: fixed;  
-    z-index: 1;
-/*
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    background: -webkit-linear-gradient(45deg, var(--primary), var(--darkblue));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-*/
-} 
+    z-index: 1;   
+    background-color: var(--lightred);
+}  
 .logo {
     text-decoration: none;
     color: var(--white); 
@@ -197,5 +189,91 @@ filter: none;
 transition: 1s ease;
 }
  
+/*review*/
+.review h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem; 
+}
+.review .row {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%; 
+    margin: auto;
+    padding-bottom: 50px;
+} 
+.row article {
+    width: 20%;
+    padding: 50px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+}
+.row article .client{
+    display: flex;
+    flex-direction: row; 
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.row article .client img {
+    border-radius: 50%;
+    width: 20%;
+    margin-right: 30px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: var(--tertiary);
+    clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0% 100%);
+    margin: auto; 
+}
+.footer .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:  80px;
+    margin: auto;
+}
+.footer .row .footer2 {
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+}
+.footer .row .footer2 h2 {
+    color: var(--white);
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+.footer .row .footer2 p {
+    padding-top: 40px;
+    color: var(--white);
+}
+.footer .row .footer2 ul li  { 
+    list-style: none;
+}
+.footer .row .footer2 ul li a {
+    text-decoration: none; 
+    line-height: 2;
+    color: var(--secondary);
+}
+.footer .row .footer2 ul li a:hover {
+    color: var(--white);
+    transition: var(--transition);
+}
+.footer .row .footer2:nth-child(3) {
+    padding-top: 30px;
+}
+
+.footer .row .footer2:nth-child(4) .icons {
+    display: flex;
+    flex-direction: row;
+}
+
 
 

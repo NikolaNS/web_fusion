@@ -44,17 +44,7 @@
           <button class="button">HTML, CSS, JS</button>
           <button class="button">Wordpress themes</button>
           <button class="button">Web shops</button>
-      </article>
-<!--
-      <article>
-          <img src="img/filtr1.jpg" alt="">
-          <img src="img/filtr2.jpg" alt="">
-          <img src="img/filtr3.jpg" alt="">
-          <img src="img/filtr4.jpg" alt="">
-          <img src="img/filtr5.jpg" alt="">
-          <img src="img/filtr6.jpg" alt="">
-      </article>
--->
+      </article> 
       <div class="photos">
           <article>
               <img src="img/filtr1.jpg" alt="" class="color">
@@ -76,6 +66,79 @@
           </article>
       </div>
   </section>
+  
+<!--  review-->
+ 
+  <section class="container review"> 
+     <h1>Reviews</h1>
+      <div class="row">
+          <article> 
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, doloremque, obcaecati! Expedita repellat alias molestiae labore dolore neque dolor assumenda!</p>
+               <div class="client">
+                   <img src="img/mark.jpg" alt="">
+                   <p>-Mark Zukerberg</p>
+               </div>
+          </article>
+           <article> 
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, doloremque, obcaecati! Expedita repellat alias molestiae labore dolore neque dolor assumenda!</p>
+               <div class="client">
+                   <img src="img/mark.jpg" alt="">
+                   <p>-Mark Zukerberg</p>
+               </div>
+          </article>
+          <article> 
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, doloremque, obcaecati! Expedita repellat alias molestiae labore dolore neque dolor assumenda!</p>
+               <div class="client">
+                   <img src="img/mark.jpg" alt="">
+                   <p>-Mark Zukerberg</p>
+               </div>
+          </article>
+      </div> 
+  </section> 
+  
+<!--  footer-->
+  
+  <section class="container footer">
+      <div class="row">
+          <div class="footer2">
+              <h2>Web fusion</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eaque ratione totam sed illo commodi, itaque culpa. Deserunt facilis, hic!</p>
+          </div>
+          <div class="footer2">
+              <h2>Map site</h2>
+              <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Prices</a></li>
+                  <li><a href="">Packages</a></li>
+                  <li><a href="">Contact</a></li>
+              </ul>
+          </div>
+          <div class="footer2">
+              <h2>Packages</h2>
+              <ul>
+                 <li><a href="">HTML, CSS, JS</a></li>
+                 <li><a href="">Wordpress themes</a></li>
+                 <li><a href="">Custom WP themes</a></li>
+                 <li><a href="">Web shop</a></li>
+                 <li><a href="">Working hour</a></li> 
+              </ul>
+          </div>
+          <div class="footer2">
+              <h2>Contact</h2>
+              <p><i class="fas fa-phone"></i>&nbsp;062 218 454</p>
+              <p><i class="fas fa-envelope"></i>&nbsp;info@webfusion.studio</p>
+              <div class="icons">
+                        <a href=""><i class="fab fa-facebook-square"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+      
+  </section>
+  
+   
   
 </body>
 </html>
