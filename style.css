@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+:root {
+    --primary: #6a58ff;    /*  rgba(106, 88, 255,.8) */
+    --secondary: #6ff3f7;  /* rgba(111, 243, 247,.8) */
+    --tertiary: #343d6c;
+    --darkblue: #0f1220;
+    --black: #000;
+    --lightgray: #f8fafd;
+    --white: #fff;
+    --text: #666666;
+    --borders: #e5e5e5;
+    --lightgreen: #75eac0;
+    --green: #a2e81c;
+    --lightblue: #ada2ff;
+    --blue: #6edff8;
+    --lightred: #ed87b2;
+    --red: #fb4c35;
+    --lightviolet: #c2b8f3;
+    --violet: #6d53fc;
+    --fontFamily: 'Poppins', sans-serif;
+    --fontSize: 16px;
+    --transition: .3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: var(--fontFamily);
+    font-size: var(--fontSize);
+    line-height: 1.5;
+    color: var(--text);
+} 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: var(--darkblue);
+}
+h2 {
+    font-size: 2.5rem;
+}
+
+/*nav*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    width: 100%;
+    position: fixed;  
+/*
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background: -webkit-linear-gradient(45deg, var(--primary), var(--darkblue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+*/
+} 
+.logo {
+    text-decoration: none;
+    color: var(--white); 
+} 
+.logo:hover {
+    color: var(--secondary);
+    transition: var(--transition);
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    list-style: none;
+} 
+nav ul li a {
+    padding: 0 30px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+nav ul li a:hover {
+    color: var(--lightgreen);
+    transition: var(--transition); 
+    text-shadow: 3px 2px var(--black);
+}
+
+/*header*/
+header {
+    background-image: url(img/header-background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding-top: 200px;
+}
+.header h1 {
+    font-size: 3rem;
+    color: var(--white);
+}
+.header p {
+    color: var(--white);
+    padding: 20px 0;
+}
+.header input[type="submit"] {
+    background-color: var(--white);
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 30px; 
+}
+.header input[type="submit"]:hover {
+    transform: translateY(-10px); 
+    transition: 1s ease;
+}
+
+
+
+
+
+
+
+
+
