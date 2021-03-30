@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
-
+ 
 :root {
     --primary: #6a58ff;    /*  rgba(106, 88, 255,.8) */
     --secondary: #6ff3f7;  /* rgba(111, 243, 247,.8) */
@@ -57,6 +57,7 @@ nav {
     align-items: center;
     width: 100%;
     position: fixed;  
+    z-index: 1;
 /*
     display: flex;
     justify-content: space-around;
@@ -101,6 +102,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
+    clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
 }
 .header {
     display: flex;
@@ -123,17 +125,77 @@ header {
     font-size: 1.5rem;
     padding: 10px 15px;
     border-radius: 30px; 
+    font-family: 'Montserrat', sans-serif;
 }
 .header input[type="submit"]:hover {
     transform: translateY(-10px); 
     transition: 1s ease;
 }
 
+/*portfolio*/
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.portfolio article:nth-child(1) h2 {
+    font-size: 4rem;
+    padding: 20px;
+}
+.portfolio article:nth-child(1) hr {
+    height: 5px;
+    background: var(--secondary);
+    width: 50%; 
+    margin: auto;
+    border: 0px;
+}
+.portfolio article:nth-child(1) p {
+    padding: 20px;
+}
+.portfolio article:nth-child(2) .button{
+    padding: 10px; 
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 1.2rem;
+}
+.portfolio article:nth-child(2) .button:hover { 
+    background-color:#555555;
+    color: var(--white);
+} 
+.photos {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    width: 100%;  
+}
+.photos article { 
+    padding: 10px 0;
+    width: 30%; 
+    margin: auto;
+}
+.photos article img { 
+    width: 90%; 
+} 
+.color {
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
 
-
-
-
-
-
+.color:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
+ 
 
 
