@@ -9,10 +9,10 @@
           <div class="footer2">
               <h2>Map site</h2>
               <ul>
-                  <li><a href="">Home</a></li>
-                  <li><a href="">Prices</a></li>
-                  <li><a href="">Packages</a></li>
-                  <li><a href="">Contact</a></li>
+                  <li><a href="index.php">Home</a></li>
+                  <li><a href="prices.php">Prices</a></li>
+                  <li><a href="packages.php">Packages</a></li>
+                  <li><a href="contact.php">Contact</a></li>
               </ul>
           </div>
           <div class="footer2">

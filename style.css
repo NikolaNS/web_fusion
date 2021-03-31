@@ -467,3 +467,65 @@ transition: 1s ease;
     cursor: pointer;
     color: white;
 } 
+
+/*contact*/
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 50px 100px; 
+}
+.contact article {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 100px;
+}
+.contact article hr{
+    padding: 2px;
+    background-color: aqua;
+    border: none;
+    width: 90%;
+    margin: 10px;
+}
+.contact article:nth-child(1) {
+    margin-bottom: 135px;
+}
+.contact article:nth-child(1) input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.contact article:nth-child(1)  textarea {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.contact article:nth-child(1) input[type="submit"] { 
+    color: white; 
+    letter-spacing: 2px;
+    font-size: 1rem;
+    cursor: pointer; 
+    background: linear-gradient(90deg, rgba(70,70,189,1) 32%, rgba(0,212,255,1) 100%); 
+}
+ 
+.contact article:nth-child(1) input[type="submit"]:hover {
+    background: linear-gradient(90deg, rgba(0,212,255,1) 100%,rgba(70,70,189,1) 32%);
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
