@@ -16,7 +16,7 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="prices.php">Prices</a></li>
-            <li><a href="">Packages</a></li> 
+            <li><a href="packages.php">Packages</a></li> 
             <li><a href="">Contact</a></li>
         </ul>
     </nav>
